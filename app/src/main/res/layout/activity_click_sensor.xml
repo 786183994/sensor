@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClickSensor"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/phone_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手机中的传感器"/>
+
+    <Button
+        android:id="@+id/wear_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="可穿戴式传感器"/>
+
+</LinearLayout>
